@@ -1,0 +1,74 @@
+html,
+body {
+	height: 100%;
+	color: green ; 
+	padding: 10px;
+}
+
+body {
+	background-color: white;
+}
+
+* {
+	border: 1px solid red !important;
+}
+
+div {
+	border: 1px solid black;
+}
+
+div > strong{
+	border: 1px solid; color: red;
+}
+
+span {
+	border: 1px solid blue;
+}
+
+p {
+	font-size: 30px;
+}
+
+p:hover {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+p.orange {	
+	color: orange;
+	}
+
+.orange {	
+	color: black;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.list {
+	border: 1px solid black;
+	background-color: blue;
+}
+
+.list-specialny {
+	background-color: red;
+}
+
+.list-specialny li {
+	display: inline-block;
+}
+
+.janci {	
+background-color: green;
+}
+
+a[title]:focus {
+	color: blue;
+	font-size: 50px;
+}
+
+#intro {
+	color: red;
+}
+ 
