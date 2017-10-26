@@ -1,0 +1,31 @@
+html, 
+body {
+	width: 100%;
+}
+.title-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.box-holder {
+	display: table;
+	height: 100px;
+	width: 100%;
+}
+ 
+ .box-holder-text {
+ 	display: table-cell;
+ 	vertical-align: middle;
+ }
+
+.text-justify {
+	text-align: justify;
+}
+
+.text-wrapper {
+	word-wrap: break-word;
+	word-break: break-word;
+}
