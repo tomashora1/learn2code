@@ -1,0 +1,17 @@
+.title-align-right {
+	text-align: right;
+	color: red;
+	font-size: 12px;
+}
+
+.title-align-center  {
+ text-align: center;
+ color: blue;
+ font-size: 14px;
+}
+
+.title-align-justify {
+text-align: justify;
+color: green;
+font-size: 16px;
+}
