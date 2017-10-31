@@ -1,0 +1,142 @@
+html, 
+body {
+	height: 100%;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+body {
+	word-wrap: break-word;
+	word-break: break-word;
+	background-color: black;
+}
+
+.main-content {
+	margin: 100px 200px 70px 250px;
+	border: 1px solid white;
+	color: white;
+}
+
+h1 {
+	text-align: center;
+	border-bottom: 1px solid white;
+	padding: 10px;
+}
+
+a {
+	user-select: none;
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+.link {
+	padding: 10px;
+}
+
+a:hover {
+	background-color: white;
+	color: black;
+	text-decoration: underline;
+}
+
+ul {
+	display: flex;
+}
+
+li {
+	margin: 0 20px 0 0;
+}
+
+.box {
+	display: flex;
+}
+
+/*.box-one {
+	height: 40px;
+	background-color: red;
+	flex: 1;
+}
+
+.box-two {
+	height: 60px;
+	background-color: blue;
+	flex: 1;
+}
+
+.box-three {
+	height: 80px;
+	background-color: green;
+	flex: 1;
+}*/
+
+.li-special {
+	color: yellow;
+}
+
+.box-special {
+	background-color: white;
+	color: black;
+	margin: 10px;
+}
+
+.box-special-right {
+	text-align: right;
+}
+
+.box-special-center {
+	text-align: center;
+}
+
+
+.box-two-two {
+	height: 80px;
+}
+
+/*.box-three-three {
+	align-content: center;
+}*/
+
+.box-center {
+	align-items: center;
+}
+
+.box-one-float {
+	background-color: red;
+	float: left;
+	width: calc(100% / 3);
+	padding: 5px 5px;
+}
+
+.box-two-float {
+	background-color: blue;
+	float: left;
+	width: calc(100% / 3);
+	padding: 20px 5px;
+}
+
+.box-three-float {
+	background-color: green;
+	float: left;
+	width: calc(100% / 3);
+	padding: 30px 5px;
+}
+
+.box-flex-start {
+	align-items: flex-start;
+}
+
+.box-flex-end {
+	align-items: flex-end;
+}
+
+.box-flex-stretch {
+	align-items: stretch;
+}
+
+
+
