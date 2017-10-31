@@ -56,24 +56,6 @@ li {
 	display: flex;
 }
 
-/*.box-one {
-	height: 40px;
-	background-color: red;
-	flex: 1;
-}
-
-.box-two {
-	height: 60px;
-	background-color: blue;
-	flex: 1;
-}
-
-.box-three {
-	height: 80px;
-	background-color: green;
-	flex: 1;
-}*/
-
 .li-special {
 	color: yellow;
 }
@@ -96,10 +78,6 @@ li {
 .box-two-two {
 	height: 80px;
 }
-
-/*.box-three-three {
-	align-content: center;
-}*/
 
 .box-center {
 	align-items: center;
@@ -138,5 +116,21 @@ li {
 	align-items: stretch;
 }
 
+/*.box-one {
+	height: 40px;
+	background-color: red;
+	flex: 1;
+}
 
+.box-two {
+	height: 60px;
+	background-color: blue;
+	flex: 1;
+}
+
+.box-three {
+	height: 80px;
+	background-color: green;
+	flex: 1;
+}*/
 
