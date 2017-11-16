@@ -1,0 +1,88 @@
+.container {
+	margin: 50px auto;
+	width: 960px;
+	position: realtive;
+}
+
+.box {
+	position: absolute;
+}
+
+.grey	{
+	z-index: 1;
+	background-color: grey;
+	width: 150px;
+	height: 150px;
+	left: 50px;
+	top: 20px;
+}
+
+.red {
+	z-index: 2;
+	background-color: red;
+	width: 150px;
+	height: 150px;
+	left: 100px;
+	top: 50px;
+}
+
+.blue {
+	z-index: 3;
+	background-color: blue;
+	width: 150px;
+	height: 150px;
+	left: 70px;
+	top: 100px;
+}
+
+.green {
+	z-index: 1;
+	background-color: green;
+	width: 150px;
+	height: 150px;
+	left: 20px;
+	top: 120px;
+}
+
+.black {
+	z-index: 1;
+	background-color: black;
+	width: 150px;
+	height: 150px;
+	left: 90px;
+	top: 180px;
+}
+
+.yellow {
+	position: fixed;
+	z-index: 1;
+	background-color: yellow;
+	width: 150px;
+	height: 150px;
+	left: 120px;
+	top: 150px;
+}
+
+.box:hover {
+	z-index: 10;
+}
+
+.link, 
+.title-main {
+	position: realtive;
+	color: black;
+	background-color: yellow;
+	font-size: 24px;
+	border: 1px solid black;
+	padding-left: 35px
+	}
+
+/*.icon-star-full:after,
+*/.title-main:after {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	font-size: 30px;
+	transform: translateY(-50%);
+	z-index: 1;
+}
